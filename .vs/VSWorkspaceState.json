@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\PruebaOrionTek",
+    "\\PruebaOrionTek\\PruebaOrionTek",
+    "\\PruebaOrionTek\\PruebaOrionTek\\Views"
   ],
-  "SelectedNode": "\\OriontekPrueba.sln",
+  "SelectedNode": "\\PruebaOrionTek\\PruebaOrionTek\\Views\\DireccionesPage.xaml.cs",
   "PreviewInSolutionExplorer": false
 }

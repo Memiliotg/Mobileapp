@@ -40,7 +40,7 @@ namespace PruebaOrionTek.Views
         {
             var item = sender as SwipeItem;
             var Emp = item.CommandParameter as Empresa;
-            var result = await DisplayAlert("Borrar", $"Quiere eliminar a {cli.Nombre}?", "Si", "No");
+            var result = await DisplayAlert("Borrar", $"Quiere eliminar a {Emp.Nombre}?", "Si", "No");
             if (result)
             {
                 await App.DataBase.DeleteEmpresaAsync(Emp);
