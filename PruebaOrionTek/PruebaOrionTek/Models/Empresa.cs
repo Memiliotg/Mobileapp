@@ -8,7 +8,7 @@ namespace PruebaOrionTek.Models
     public class Empresa
     {
         [PrimaryKey, AutoIncrement]
-        public int Id { set; get; }
+        public int? Id { set; get; }
         public string Nombre { set; get; }    
     }
 }

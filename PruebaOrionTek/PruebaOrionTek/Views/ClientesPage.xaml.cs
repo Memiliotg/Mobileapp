@@ -69,7 +69,7 @@ namespace PruebaOrionTek.Views
 
             var Current = (e.CurrentSelection.FirstOrDefault() as Cliente);
             var x = (Current.Id != null) ? Current.Id : 0;  
-            await Navigation.PushAsync(new DireccionesPage(x));
+            await Navigation.PushAsync(new DireccionesPage((int)x));
 
         }
     }

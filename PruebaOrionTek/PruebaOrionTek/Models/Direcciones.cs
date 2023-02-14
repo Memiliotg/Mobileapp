@@ -8,8 +8,8 @@ namespace PruebaOrionTek.Models
     public class Direcciones
     {
         [PrimaryKey, AutoIncrement]
-        public int Id { get; set; } 
+        public int? Id { get; set; } 
         public string Direccion { get; set; }  
-        public int IdCliente { get; set; }
+        public int? IdCliente { get; set; }
     }
 }

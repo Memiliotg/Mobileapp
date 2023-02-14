@@ -15,7 +15,8 @@
             <CollectionView x:Name="ClientesListView"
                             SelectionMode="Single"
                             Margin="20,5,20,0"
-                            SelectionChanged="ClientesListView_SelectionChanged">
+                            SelectionChanged="ClientesListView_SelectionChanged"
+                           >
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
                         <SwipeView>

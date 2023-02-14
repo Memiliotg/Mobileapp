@@ -13,9 +13,11 @@ namespace PruebaOrionTek.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class DireccionesDetail : ContentPage
 	{
-		public DireccionesDetail ()
+        private int Id;
+		public DireccionesDetail (int id)
 		{
 			InitializeComponent ();
+            Id = id;
 		}
         Models.Direcciones _direcciones;
 
@@ -52,7 +54,7 @@ namespace PruebaOrionTek.Views
             await App.DataBase.CreateDireccionAsync(new Models.Direcciones
             {
                 Direccion = DireccionEntry.Text,
-
+                IdCliente = Id
 
 
             });

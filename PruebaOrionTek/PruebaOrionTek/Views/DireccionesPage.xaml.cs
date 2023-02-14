@@ -41,18 +41,18 @@ namespace PruebaOrionTek.Views
         async void SwipeItem_Invoked(object sender, EventArgs e)
         {
             var item = sender as SwipeItem;
-            var cli = item.CommandParameter as Cliente;
-            await Navigation.PushAsync(new ClientesDetail(cli));
+            var Dir = item.CommandParameter as Direcciones;
+            await Navigation.PushAsync(new DireccionesDetail(Dir));
         }
 
         async void SwipeItem_Invoked_1(object sender, EventArgs e)
         {
             var item = sender as SwipeItem;
-            var di = item.CommandParameter as Direcciones;
+            var Dir = item.CommandParameter as Direcciones;
             var result = await DisplayAlert("Borrar", "Quiere eliminar esta Direccion?", "Si", "No");
             if (result)
             {
-                await App.DataBase.DeleteDireccionesAsync(di);
+                await App.DataBase.DeleteDireccionesAsync(Dir);
                 DireccionesCollectionView.ItemsSource = await App.DataBase.GetDireccionesAsync(Id);
             }
         }
@@ -60,6 +60,11 @@ namespace PruebaOrionTek.Views
         private async void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
         {
             DireccionesCollectionView.ItemsSource = await App.DataBase.Search(e.NewTextValue);
+        }
+
+        async void ToolbarItem_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new DireccionesDetail(Id));
         }
     }
 }

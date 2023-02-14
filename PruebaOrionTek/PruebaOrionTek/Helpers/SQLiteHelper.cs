@@ -48,7 +48,9 @@ namespace PruebaOrionTek.Helpers
 
         public Task<List<Direcciones>> GetDireccionesAsync(int Id)
         {
-            return db.Table<Direcciones>().Where(x=> x.IdCliente.Equals(Id)).ToListAsync();
+            Console.WriteLine("*****************"+Id+"************");
+            return db.Table<Direcciones>().Where(x=> x.IdCliente == Id).ToListAsync();
+           
         }
 
 
