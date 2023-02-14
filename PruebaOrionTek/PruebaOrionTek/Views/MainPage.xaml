@@ -9,28 +9,66 @@
                      Clicked="AgreggarButton_Clicked"/>
     </ContentPage.ToolbarItems>
     <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+      
+        <CollectionView x:Name="MainPageCollectionView"
+                            SelectionMode="Single"
+                            Margin="20,5,20,0"
+                            SelectionChanged="MainPageCollectionView_SelectionChanged"
+                           >
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <SwipeView>
+                        <SwipeView.RightItems>
+                            <SwipeItem Text="Editar" 
+                                           BackgroundColor="#3A9BDC"
+                                           CommandParameter="{Binding .}"
+                                           Invoked="SwipeItem_Invoked"></SwipeItem>
+                            <SwipeItem Text="Borrar" 
+                                           BackgroundColor="IndianRed"
+                                           CommandParameter="{Binding .}"
+                                           Invoked="SwipeItem_Invoked_1"></SwipeItem>
+                        </SwipeView.RightItems>
+
+                        <StackLayout>
+
+                            <Grid RowSpacing="0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="30" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="15"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Label Text="{Binding Id}" Grid.RowSpan="2"
+                                       Grid.Row="0" 
+                                       HorizontalOptions="CenterAndExpand"
+                                       VerticalOptions="CenterAndExpand"
+                                       >
+
+                                </Label>
+
+                                <Label Text="{Binding Nombre}"
+                                       Grid.Row="0" 
+                                       Grid.Column="1"
+                                       FontSize="20"
+                                       FontAttributes="Bold"
+                                       HorizontalOptions="CenterAndExpand"
+                                       VerticalOptions="CenterAndExpand"/>
+
+                            </Grid>
+                            <BoxView   VerticalOptions="Center"
+                                            HorizontalOptions="Center"
+                                            HeightRequest="0.5"
+                                            WidthRequest="320"  
+                                            Color="#D2D2D2"></BoxView>
+                        </StackLayout>
+                    </SwipeView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
 
 
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-            </Grid.RowDefinitions>
 
-
-           
-            <ListView Grid.Row="0" x:Name="EmpresaListView">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <TextCell Text="{Binding Nombre}"  Tapped="TextCell_Tapped" ></TextCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-        </Grid>
-        
-       
     </StackLayout>
 
 </ContentPage>

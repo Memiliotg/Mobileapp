@@ -35,7 +35,7 @@
                                
                                 <Grid RowSpacing="0">
                                 <Grid.RowDefinitions>
-                                    <RowDefinition Height="*" />
+                                    <RowDefinition Height="30" />
                                 </Grid.RowDefinitions>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="15"/>
@@ -58,6 +58,11 @@
                                        VerticalOptions="CenterAndExpand"/>
                                 
                             </Grid>
+                                <BoxView   VerticalOptions="Center"
+                                            HorizontalOptions="Center"
+                                            HeightRequest="0.5"
+                                            WidthRequest="320"  
+                                            Color="#D2D2D2"></BoxView>
                             </StackLayout>
                         </SwipeView>
                     </DataTemplate>

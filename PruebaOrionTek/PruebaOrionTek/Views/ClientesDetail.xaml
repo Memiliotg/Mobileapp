@@ -7,11 +7,6 @@
             <Entry Placeholder="Nombre"
                    x:Name="NombreEntry"
                    />
-            <Entry Placeholder="Direccion"
-                   x:Name="DireccionEntry"/>
-            
-           
-            
             <Button Text="Guardar"
                     Clicked="Button_Clicked"/>
         </StackLayout>

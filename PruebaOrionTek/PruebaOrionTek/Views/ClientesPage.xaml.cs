@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using PruebaOrionTek.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -12,13 +9,12 @@ namespace PruebaOrionTek.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ClientesPage : ContentPage
     {
-        public ClientesPage()
+        private int Id;
+        public ClientesPage(int id)
         {
             InitializeComponent();
+            Id = id;
         }
-
-        
-
 
         protected async override void OnAppearing()
         {

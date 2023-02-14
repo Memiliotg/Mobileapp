@@ -16,6 +16,9 @@ C:\Users\emilio\source\repos\OriontekPrueba\PruebaOrionTek\PruebaOrionTek\obj\De
 C:\Users\emilio\source\repos\OriontekPrueba\PruebaOrionTek\PruebaOrionTek\obj\Debug\netstandard2.1\PruebaOrionTek.dll
 C:\Users\emilio\source\repos\OriontekPrueba\PruebaOrionTek\PruebaOrionTek\obj\Debug\netstandard2.1\PruebaOrionTek.pdb
 C:\Users\emilio\source\repos\OriontekPrueba\PruebaOrionTek\PruebaOrionTek\obj\Debug\netstandard2.1\Views\DireccionesPage.xaml.g.cs
+C:\Users\Signos\Source\Repos\Memiliotg\Mobileapp\PruebaOrionTek\PruebaOrionTek\bin\Debug\netstandard2.1\PruebaOrionTek.deps.json
+C:\Users\Signos\Source\Repos\Memiliotg\Mobileapp\PruebaOrionTek\PruebaOrionTek\bin\Debug\netstandard2.1\PruebaOrionTek.dll
+C:\Users\Signos\Source\Repos\Memiliotg\Mobileapp\PruebaOrionTek\PruebaOrionTek\bin\Debug\netstandard2.1\PruebaOrionTek.pdb
 C:\Users\Signos\Source\Repos\Memiliotg\Mobileapp\PruebaOrionTek\PruebaOrionTek\obj\Debug\netstandard2.1\PruebaOrionTek.csproj.AssemblyReference.cache
 C:\Users\Signos\Source\Repos\Memiliotg\Mobileapp\PruebaOrionTek\PruebaOrionTek\obj\Debug\netstandard2.1\PruebaOrionTek.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Signos\Source\Repos\Memiliotg\Mobileapp\PruebaOrionTek\PruebaOrionTek\obj\Debug\netstandard2.1\App.xaml.g.cs
@@ -28,9 +31,6 @@ C:\Users\Signos\Source\Repos\Memiliotg\Mobileapp\PruebaOrionTek\PruebaOrionTek\o
 C:\Users\Signos\Source\Repos\Memiliotg\Mobileapp\PruebaOrionTek\PruebaOrionTek\obj\Debug\netstandard2.1\PruebaOrionTek.AssemblyInfoInputs.cache
 C:\Users\Signos\Source\Repos\Memiliotg\Mobileapp\PruebaOrionTek\PruebaOrionTek\obj\Debug\netstandard2.1\PruebaOrionTek.AssemblyInfo.cs
 C:\Users\Signos\Source\Repos\Memiliotg\Mobileapp\PruebaOrionTek\PruebaOrionTek\obj\Debug\netstandard2.1\PruebaOrionTek.csproj.CoreCompileInputs.cache
+C:\Users\Signos\Source\Repos\Memiliotg\Mobileapp\PruebaOrionTek\PruebaOrionTek\obj\Debug\netstandard2.1\XamlC.stamp
 C:\Users\Signos\Source\Repos\Memiliotg\Mobileapp\PruebaOrionTek\PruebaOrionTek\obj\Debug\netstandard2.1\PruebaOrionTek.dll
 C:\Users\Signos\Source\Repos\Memiliotg\Mobileapp\PruebaOrionTek\PruebaOrionTek\obj\Debug\netstandard2.1\PruebaOrionTek.pdb
-C:\Users\Signos\Source\Repos\Memiliotg\Mobileapp\PruebaOrionTek\PruebaOrionTek\bin\Debug\netstandard2.1\PruebaOrionTek.deps.json
-C:\Users\Signos\Source\Repos\Memiliotg\Mobileapp\PruebaOrionTek\PruebaOrionTek\bin\Debug\netstandard2.1\PruebaOrionTek.dll
-C:\Users\Signos\Source\Repos\Memiliotg\Mobileapp\PruebaOrionTek\PruebaOrionTek\bin\Debug\netstandard2.1\PruebaOrionTek.pdb
-C:\Users\Signos\Source\Repos\Memiliotg\Mobileapp\PruebaOrionTek\PruebaOrionTek\obj\Debug\netstandard2.1\XamlC.stamp

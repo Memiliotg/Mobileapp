@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PruebaOrionTek.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,17 @@ namespace PruebaOrionTek.Views
         public EmpresaDetail()
         {
             InitializeComponent();
+        }
+
+        Models.Empresa _empresa;
+        public EmpresaDetail(Models.Empresa empresa)
+        {
+            InitializeComponent();
+            Title = "Editar Cliente";
+            _empresa = empresa;
+            NombreEntry.Text = empresa.Nombre;
+
+            NombreEntry.Focus();
         }
 
         async void Button_Clicked(object sender, EventArgs e)
