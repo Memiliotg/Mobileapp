@@ -1,0 +1,15 @@
+C:\Users\emilio\source\repos\OriontekPrueba\OriontekPrueba\bin\Debug\netstandard2.0\OriontekPrueba.deps.json
+C:\Users\emilio\source\repos\OriontekPrueba\OriontekPrueba\bin\Debug\netstandard2.0\OriontekPrueba.dll
+C:\Users\emilio\source\repos\OriontekPrueba\OriontekPrueba\bin\Debug\netstandard2.0\OriontekPrueba.pdb
+C:\Users\emilio\source\repos\OriontekPrueba\OriontekPrueba\obj\Debug\netstandard2.0\OriontekPrueba.csproj.AssemblyReference.cache
+C:\Users\emilio\source\repos\OriontekPrueba\OriontekPrueba\obj\Debug\netstandard2.0\OriontekPrueba.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emilio\source\repos\OriontekPrueba\OriontekPrueba\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\emilio\source\repos\OriontekPrueba\OriontekPrueba\obj\Debug\netstandard2.0\OriontekPrueba.AssemblyInfoInputs.cache
+C:\Users\emilio\source\repos\OriontekPrueba\OriontekPrueba\obj\Debug\netstandard2.0\OriontekPrueba.AssemblyInfo.cs
+C:\Users\emilio\source\repos\OriontekPrueba\OriontekPrueba\obj\Debug\netstandard2.0\OriontekPrueba.csproj.CoreCompileInputs.cache
+C:\Users\emilio\source\repos\OriontekPrueba\OriontekPrueba\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\emilio\source\repos\OriontekPrueba\OriontekPrueba\obj\Debug\netstandard2.0\OriontekPrueba.dll
+C:\Users\emilio\source\repos\OriontekPrueba\OriontekPrueba\obj\Debug\netstandard2.0\refint\OriontekPrueba.dll
+C:\Users\emilio\source\repos\OriontekPrueba\OriontekPrueba\obj\Debug\netstandard2.0\OriontekPrueba.pdb
+C:\Users\emilio\source\repos\OriontekPrueba\OriontekPrueba\obj\Debug\netstandard2.0\ref\OriontekPrueba.dll
+C:\Users\emilio\source\repos\OriontekPrueba\OriontekPrueba\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs

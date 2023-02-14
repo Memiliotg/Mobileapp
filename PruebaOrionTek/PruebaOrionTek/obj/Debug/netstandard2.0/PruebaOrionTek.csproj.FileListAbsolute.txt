@@ -1,0 +1,16 @@
+C:\Users\emilio\source\repos\OriontekPrueba\PruebaOrionTek\PruebaOrionTek\bin\Debug\netstandard2.0\PruebaOrionTek.deps.json
+C:\Users\emilio\source\repos\OriontekPrueba\PruebaOrionTek\PruebaOrionTek\bin\Debug\netstandard2.0\PruebaOrionTek.dll
+C:\Users\emilio\source\repos\OriontekPrueba\PruebaOrionTek\PruebaOrionTek\bin\Debug\netstandard2.0\PruebaOrionTek.pdb
+C:\Users\emilio\source\repos\OriontekPrueba\PruebaOrionTek\PruebaOrionTek\obj\Debug\netstandard2.0\PruebaOrionTek.csproj.AssemblyReference.cache
+C:\Users\emilio\source\repos\OriontekPrueba\PruebaOrionTek\PruebaOrionTek\obj\Debug\netstandard2.0\PruebaOrionTek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emilio\source\repos\OriontekPrueba\PruebaOrionTek\PruebaOrionTek\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\emilio\source\repos\OriontekPrueba\PruebaOrionTek\PruebaOrionTek\obj\Debug\netstandard2.0\Views\ClientesDetail.xaml.g.cs
+C:\Users\emilio\source\repos\OriontekPrueba\PruebaOrionTek\PruebaOrionTek\obj\Debug\netstandard2.0\Views\ClientesPage.xaml.g.cs
+C:\Users\emilio\source\repos\OriontekPrueba\PruebaOrionTek\PruebaOrionTek\obj\Debug\netstandard2.0\Views\EmpresaDetail.xaml.g.cs
+C:\Users\emilio\source\repos\OriontekPrueba\PruebaOrionTek\PruebaOrionTek\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\emilio\source\repos\OriontekPrueba\PruebaOrionTek\PruebaOrionTek\obj\Debug\netstandard2.0\PruebaOrionTek.AssemblyInfoInputs.cache
+C:\Users\emilio\source\repos\OriontekPrueba\PruebaOrionTek\PruebaOrionTek\obj\Debug\netstandard2.0\PruebaOrionTek.AssemblyInfo.cs
+C:\Users\emilio\source\repos\OriontekPrueba\PruebaOrionTek\PruebaOrionTek\obj\Debug\netstandard2.0\PruebaOrionTek.csproj.CoreCompileInputs.cache
+C:\Users\emilio\source\repos\OriontekPrueba\PruebaOrionTek\PruebaOrionTek\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\emilio\source\repos\OriontekPrueba\PruebaOrionTek\PruebaOrionTek\obj\Debug\netstandard2.0\PruebaOrionTek.dll
+C:\Users\emilio\source\repos\OriontekPrueba\PruebaOrionTek\PruebaOrionTek\obj\Debug\netstandard2.0\PruebaOrionTek.pdb
